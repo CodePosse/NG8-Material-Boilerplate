@@ -1,0 +1,19 @@
+{
+  "name": "ng8-material-boilerplate",
+  "version": "1.0.0",
+  "description": "Angular Material Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodePosse/NG8-Material-Boilerplate.git"
+  },
+  "author": "Tim Hunold",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodePosse/NG8-Material-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/CodePosse/NG8-Material-Boilerplate#readme"
+}

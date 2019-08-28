@@ -119,3 +119,7 @@ You can now start the serve again and go to the browser and you will see on the 
 Since this is a static "dumb" component, we can edit it as much as we like with the server running and it will automatically refresh the browser to show your changes when you save your file. Feel free to paste in something like a button `<button mat-button-primary>I'm a button!</button>` and when you save look at the browser, you'll have a shin new Material button there!
 
 Now that you have created a test component, go to the [Angular Material](https://material.angular.io/components/categories) site and start adding some components. For this you will probably want to add styles just for this component only, and luckily you have a `test.component.scss` file and it will automatically get gobbled up by Angular wherever the component is called, so no need to pollute/bloat other files. So if you say `p{color:red}` only the text in the header will be read.
+
+#### Changing your displayed app name
+
+Since you are making your own demo, open `src/index.html` and look for the `<title>` tag and change it there.
