@@ -15,7 +15,7 @@
 
   
 
-My goal was to make something to kick-start someone on making an Angular 2-8 (this app is 8.3.0) with the latest Material Design without much prior knowledge.
+My goal was to make something to kick-start someone on making an Angular 2-8 (this app is 8.3.0) with the latest Material Design (8.1.4) without much prior knowledge.
 
   
 
