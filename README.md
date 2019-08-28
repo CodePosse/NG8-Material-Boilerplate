@@ -52,7 +52,7 @@ Google has plenty of internal tools and learning facilities, this is more of a p
 
   
 
-The vast majority of the modules you will need are included and placed in a TypeScript file called `material.ts` inside the `demo-app/` folder.
+The vast majority of the modules you will need are included and placed in a TypeScript file called `material.ts` inside the `demo-app/src/` folder.
 
   
 

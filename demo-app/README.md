@@ -24,6 +24,27 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+
+## Overview
+
+  
+
+The vast majority of the modules you will need are included and placed in a TypeScript file called `material.ts` inside the `src/` folder.
+
+  
+
+  
+
+Like mentioned above, the `src/` folder contains most of the Angular Material components imported, but NOT used in any context yet. You can go to the [Angular Material](https://material.angular.io/components/categories) homepage and get copy-and-paste examples of the components. To see what items are available, you can open the `material.ts` file and see the names of the modules that are imported.
+
+  
+### What you get
+This is pretty minimal, but it should help. 
+- I have the majority of Angular Material components readily available for you to use. Just copy-paste them from [Angular Material](https://material.angular.io/components/categories).
+- I use the default indigo-pink Material theme in `styles.scss` but you can change it later.
+- I have included Material Icons by linking from `index.html`
+- I have created a header and footer and used Material Design's `<mat-card>` wrapping a piece of text to let you know they are working.
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
