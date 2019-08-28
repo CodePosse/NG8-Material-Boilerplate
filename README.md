@@ -52,7 +52,7 @@ Google has plenty of internal tools and learning facilities, this is more of a p
 
   
 
-The vast majority of the modules you will need are included and placed in a TypeScript file called `material.ts` inside the `demo-app/` folder. When you get started, it is a good idea to make your own copy of this folder and start your work there.
+The vast majority of the modules you will need are included and placed in a TypeScript file called `material.ts` inside the `demo-app/` folder.
 
   
 
@@ -106,14 +106,16 @@ Once it is running it will stay running until you force it to quit. Mac will be 
 
   
 
-While the server is not running, you can create some components. For this first part, we will create a test component to be used across the whole site in the same place. I have already created a header and footer you can find inside the `src/` folder as a reference, but let's make a new one from scratch!
+While the server is not running, you can create some components. For this first part, we will create a test component to be used across the whole site in the same place. I have already created a header and footer you can find inside the `src/app/components` folder as a reference, but let's make a new one from scratch!
 
   
 
-To create a test item, we can go ahead and type `ng generate component component/test` and this will create a folder for you at `src/app/components/test` with the necessary HTML, SCSS and TypeScript files. This item is automatically added to other places in Angular, so all you have to do is reference it in `src/app/app.component.html`. You have to call it `<app-test>` and anytime you create a component it will always be referenced by `<app-[name]>`.
+To create a test item, we can go ahead and type `ng generate component components/test` and this will create a folder for you at `src/app/components/test` with the necessary HTML, SCSS and TypeScript files. This item is automatically added to other places in Angular, so all you have to do is reference it in `src/app/app.component.html`. You have to call it `<app-test>` and anytime you create a component it will always be referenced by `<app-[name]></app-[name]>`.
 
   
 
 You can now start the serve again and go to the browser and you will see on the page "test works!".
 
-Since this is a static "dumb" component, we can edit it as much as we like with the server running and it will automatically refresh the browser to show your changes when you save your file.
+Since this is a static "dumb" component, we can edit it as much as we like with the server running and it will automatically refresh the browser to show your changes when you save your file. Feel free to paste in something like a button `<button mat-button-primary>I'm a button!</button>` and when you save look at the browser, you'll have a shin new Material button there!
+
+Now that you have created a test component, go to the [Angular Material](https://material.angular.io/components/categories) site and start adding some components. For this you will probably want to add styles just for this component only, and luckily you have a `test.component.scss` file and it will automatically get gobbled up by Angular wherever the component is called, so no need to pollute/bloat other files. So if you say `p{color:red}` only the text in the header will be read.
