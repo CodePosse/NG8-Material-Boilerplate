@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/CodePosse/NG8-Material-Boilerplate/issues"
   },
-  "homepage": "https://github.com/CodePosse/NG8-Material-Boilerplate#readme"
+  "homepage": "https://github.com/CodePosse/NG8-Material-Boilerplate#readme",
+  "dependencies": {
+    "@ng-bootstrap/ng-bootstrap": "^5.1.1"
+  }
 }
