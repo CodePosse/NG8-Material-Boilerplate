@@ -26,9 +26,9 @@ My goal was to make something to kick-start someone on making an Angular 2-8 (th
 
 
 
-Recently as a TVC (contractor) for Google, I was asked to mentor some [UXRs](go/uxr) (UX researchers) that were not technical, but needed to get started with cut and paste while understanding context, so I enhanced this for a version I have internally. This also works for people that are just stuck and frustrated and think that the lack of readable documentation in the public areas is borderline criminal. :cop: A lot of documentation is written like it is in advanced Latin while we are learning French in Jr High. Bad Karma.
+Recently as a TVC (contractor) for Google, I was asked to mentor some [UXRs](http://go/uxr) (UX researchers) that were not technical, but needed to get started with cut and paste while understanding context, so I enhanced this for a version I have internally. This also works for people that are just stuck and frustrated and think that the lack of readable documentation in the public areas is borderline criminal. :cop: A lot of documentation is written like it is in advanced Latin while we are learning French in Jr High. Bad Karma.
 
-Google has plenty of internal tools and learning facilities, this is more of a passion project that does not require their tools like [Acey](go/acey), [ACX](go/acx), or [Dart](https://dart.dev/). While having access to all that is awesome, as a TVC I was not able to use any of it and had to make everything from scratch. :man_facepalming:
+Google has plenty of internal tools and learning facilities, this is more of a passion project that does not require their tools like [Acey](http://go/acey), [ACX](http://go/acx), or [Dart](https://dart.dev/). While having access to all that is awesome, as a TVC I was not able to use any of it and had to make everything from scratch. :man_facepalming:
 
   
 
